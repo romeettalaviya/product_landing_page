@@ -1,32 +1,35 @@
+.main {
+    background-color: rgb(238, 232, 232);
+}
+
 .header-img {
     width: 100%;
-    background-color: hsl(0, 0%, 10%);
     overflow: hidden;
     position: fixed;
+    background-color: rgb(238, 232, 232);
 }
 
 #header-img {
     width: 350px;
-    filter: invert(100%);
-    margin: auto;
+    margin-top: 20px;
     display: block;
+    float: left;
 }
 
 .nav-bar {
     overflow: hidden;
     position: fixed;
-    background-color: #1a1a1a;
     width: 100%;
-    top: 47px;
+    
 }
 
 .nav-link {
-    color: white;
+    color: black;
     text-decoration: none;
     text-align: center;
     font-size: 18px;
     padding: 14px 50px;
-    float: left;
+    float: right;
     transition: background .5s ease;
 }
 
@@ -36,31 +39,32 @@
 }
 
 .title {
-    margin-top: 150px;
-    color: #005fb3;
+    margin-top: 100px;
+    color: black;
     text-align: center;
-
+    font-size: 25px;
+    font-weight: 600;
 }
 
 #mail {
     display: block;
     margin: auto;
-    width: 180px;
-    padding: 5px;
-    border-radius: 10px;
-    border: none;
-    background-color: #008f13;
+    width: 250px;
+    padding: 7px;
+    border-radius: 2px;
+    border: 1px solid gray;
+    background-color: white;
     font-size: 15px;
     transition: width .5s ease, background .5s ease;
 }
 
 #mail::placeholder {
-    color:white;
-    opacity: 80%;
+    color: black;
+    opacity: 50%;
 }
 
 #mail:hover {
-    background-color: #008fb3;
+    background-color: rgb(238, 232, 232);
     width: 300px;
 }
 
@@ -69,39 +73,45 @@
     margin: auto;
     padding: 8px;
     border: none;
-    border-radius: 10px;
-    width: 80px;
-    background-color: #008f13;
+    border-radius: 2px;
+    width: 130px;
+    background-color: rgb(255, 196, 0);
     margin-top: 20px;
-    color: white;
+    color: black;
     font-size: 15px;
+    font-weight: bold;
     transition: background .5s ease;
 }
 
 #submit:hover {
-    background-color: #008fb3;
-    width: 120px;
+    background-color: rgb(230, 159, 7);
 }
 
 .text {
-    width: 700px;
+    width: 800px;
     margin: auto;
-    color: #008fb3;
-    margin-top: 100px;
-    transition: text-shadow .5s ease;
+    color: black;
+    margin-top: 50px;
+    float: right;
 }
 
-.text:hover {
-    text-shadow: 0px 0px 10px;
+h2 {
+    margin-bottom: -15px;
+    margin-top: 60px;
 }
+
+p {
+    font-size: 15px;
+    
+}
+
 
 #video {
     margin: auto;
     display: block;
-    margin-top: 100px;
+    margin-top: 500px;
     margin-bottom: 100px;
-    background-color: #008fb3;
-    padding: 5px;
+    padding: 10px;
 }
 
 .flex-container {
@@ -110,8 +120,9 @@
     text-align: center;
 }
 .product {
-    background-color: white;
-    margin: 20px;
+    background-color: rgb(238, 232, 232);
+    margin: 10px;
+    width: 600px;
     border: 1.2px solid black;
     transition: box-shadow .5s ease;
 }
@@ -121,7 +132,7 @@
 }
 
 .product-title {
-    padding: 10px;
+    padding: 3px;
     background-color: rgb(211, 210, 210);
     color: black;
     text-align: center;
