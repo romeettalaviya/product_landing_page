@@ -46,7 +46,7 @@
     font-weight: 600;
 }
 
-#mail {
+#email {
     display: block;
     margin: auto;
     width: 250px;
@@ -58,12 +58,12 @@
     transition: width .5s ease, background .5s ease;
 }
 
-#mail::placeholder {
+#email::placeholder {
     color: black;
     opacity: 50%;
 }
 
-#mail:hover {
+#email:hover {
     background-color: rgb(238, 232, 232);
     width: 300px;
 }
